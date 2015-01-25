@@ -51,13 +51,13 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\Extensions\Interfaces\Interfaces\Interfaces.csproj">
-      <Project>{85ded7d5-d374-4280-9e3a-90cef356518d}</Project>
-      <Name>Interfaces</Name>
-    </ProjectReference>
     <ProjectReference Include="..\Extensions\Extensions\Extensions.csproj">
       <Project>{7b5bd136-8d4f-4069-89ef-5c0e8597457a}</Project>
       <Name>Extensions</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Extensions\Interfaces\Interfaces\Interfaces.csproj">
+      <Project>{6d853b4c-db4f-4604-bd64-a43d8dca3195}</Project>
+      <Name>Interfaces</Name>
     </ProjectReference>
     <ProjectReference Include="..\MemoryManagement\MemoryManagement\MemoryManagement.csproj">
       <Project>{f8151c1b-fd0e-4607-a232-3cb983ef4b42}</Project>
