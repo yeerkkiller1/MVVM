@@ -51,20 +51,23 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Extensions\Extensions\Extensions.csproj">
+    <ProjectReference Include="..\..\Extensions\Extensions\Extensions.csproj">
       <Project>{7b5bd136-8d4f-4069-89ef-5c0e8597457a}</Project>
       <Name>Extensions</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Extensions\Interfaces\Interfaces\Interfaces.csproj">
+    <ProjectReference Include="..\..\Interfaces\Interfaces\Interfaces.csproj">
       <Project>{6d853b4c-db4f-4604-bd64-a43d8dca3195}</Project>
       <Name>Interfaces</Name>
     </ProjectReference>
-    <ProjectReference Include="..\MemoryManagement\MemoryManagement\MemoryManagement.csproj">
+    <ProjectReference Include="..\..\MemoryManagement\MemoryManagement\MemoryManagement.csproj">
       <Project>{f8151c1b-fd0e-4607-a232-3cb983ef4b42}</Project>
       <Name>MemoryManagement</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Target Name="BeforeBuild">
+    <Exec Command="../updatebuild.bat" />
+  </Target>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
   <Target Name="BeforeBuild">

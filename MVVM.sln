@@ -5,11 +5,11 @@ VisualStudioVersion = 12.0.21005.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVVM", "MVVM\MVVM.csproj", "{5AAF3BB5-D76E-43CD-BFD7-836B9D876E98}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Extensions", "Extensions\Extensions\Extensions.csproj", "{7B5BD136-8D4F-4069-89EF-5C0E8597457A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Extensions", "..\Extensions\Extensions\Extensions.csproj", "{7B5BD136-8D4F-4069-89EF-5C0E8597457A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MemoryManagement", "MemoryManagement\MemoryManagement\MemoryManagement.csproj", "{F8151C1B-FD0E-4607-A232-3CB983EF4B42}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MemoryManagement", "..\MemoryManagement\MemoryManagement\MemoryManagement.csproj", "{F8151C1B-FD0E-4607-A232-3CB983EF4B42}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interfaces", "Extensions\Interfaces\Interfaces\Interfaces.csproj", "{6D853B4C-DB4F-4604-BD64-A43D8DCA3195}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interfaces", "..\Interfaces\Interfaces\Interfaces.csproj", "{6D853B4C-DB4F-4604-BD64-A43D8DCA3195}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

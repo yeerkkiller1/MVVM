@@ -1,4 +1,4 @@
 ./
-./Extensions
-./Extensions/Interfaces
-./MemoryManagement
+../Extensions
+../Interfaces
+../MemoryManagement
