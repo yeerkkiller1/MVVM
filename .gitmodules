@@ -1,0 +1,7 @@
+[submodule "Extensions"]
+	path = Extensions
+	url = https://github.com/yeerkkiller1/MVVM.git
+
+[submodule "MemoryManagement"]
+	path = MemoryManagement
+	url = https://github.com/yeerkkiller1/MemoryManagement.git

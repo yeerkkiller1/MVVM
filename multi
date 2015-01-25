@@ -1,0 +1,16 @@
+#!/bin/bash
+
+arr=($(cat ./.multiconfig))
+
+#http://stackoverflow.com/questions/5947742/how-to-change-the-output-color-of-echo-in-linux
+white='\e[1;37m'
+blue='\e[1;32m'
+default='\e[0m'
+
+echo -e "${white}$@${default}"
+
+for i in "${arr[@]}"
+do
+	echo -e "${blue}$i${default}"
+	(eval cd $i && "$@" | sed "s/^/    /")
+done
